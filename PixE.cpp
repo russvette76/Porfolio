@@ -62,5 +62,9 @@ int main() {
 
 	}
 
+	delete [] bufferOriginal;
+	delete [] bufferEnhanced;
+	delete [] bufferScaled;
+
 	return 0;
 }
